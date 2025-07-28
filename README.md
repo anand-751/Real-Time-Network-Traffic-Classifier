@@ -2,7 +2,9 @@
 
 .
 
-📦 Features
+📦 **Features**
+
+
 📡 Captures live TCP and UDP packets using libpcap
 
 🧠 Applies heuristic rules to classify traffic using port numbers
@@ -11,7 +13,8 @@
 
 ⚡ Lightweight, fast, and runs directly in terminal
 
-🛠️ Technologies
+🛠️ **Technologies**
+
 Language: C++
 
 Libraries:
@@ -26,3 +29,29 @@ OS: Linux (Ubuntu/Debian tested)
 
 Privileges: Requires sudo to access network interfaces
 
+
+
+🚀 Getting Started     
+✅ Prerequisites
+
+Install necessary tools:
+
+
+sudo apt update
+
+sudo apt install g++ libpcap-dev
+
+
+🛠️ Build the Project
+
+Clone the repository and compile the source:
+
+git clone https://github.com/your-username/real-time-network-classifier.git
+
+cd real-time-network-classifier
+
+make
+
+▶️ Run the Program
+
+sudo ./build/sniffer
