@@ -29,10 +29,10 @@ OS: Linux (Ubuntu/Debian tested)
 
 Privileges: Requires sudo to access network interfaces
 
+----------------------------------------------------------------------
 
 
-🚀 Getting Started     
-✅ Prerequisites
+🚀 **Getting Started**
 
 Install necessary tools:
 
@@ -42,7 +42,7 @@ sudo apt update
 sudo apt install g++ libpcap-dev
 
 
-🛠️ Build the Project
+🛠️ **Build the Project**
 
 Clone the repository and compile the source:
 
@@ -52,6 +52,6 @@ cd real-time-network-classifier
 
 make
 
-▶️ Run the Program
+▶️ **Run the Program**
 
 sudo ./build/sniffer
